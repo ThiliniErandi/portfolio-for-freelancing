@@ -1,0 +1,229 @@
+/******************** Medium Layout: 1280px. ********************/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
+/******************** Tablet Layout: 768px. ********************/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/***** Title bar *****/
+    .navbar.navbar-expand-lg.fixed-top {
+        position: static;
+        background-color: #000;
+    }
+    button.navbar-toggler {
+        color: #fff;
+    }
+
+    .navbar-nav {
+        background-color: #333;
+        margin-top: 30px;
+    }
+    .nav-item {
+        border-bottom: 1px solid;
+    }
+    nav .main-menu .navbar-nav .nav-item .nav-link {
+        padding: 15px 15px;
+    }
+
+/***** Heading Area *****/
+    .heading-content h2 {
+        font-size: 70px;
+    }
+
+/***** About Area *****/
+    .about-content {
+        margin-top: 30px;
+    }
+
+/***** Service Area *****/
+    .service-area::before {
+        height: 100%;
+    }
+
+/***** Call To Action *****/
+    .cta-button {
+        text-align: left;
+        margin-top: 15px;
+    }
+}
+
+
+/******************** Mobile Layout: 320px. ********************/
+
+@media only screen and (max-width: 767px) {
+
+/***** Sections *****/
+    .section-title h2 {
+        font-size: 24px;
+    }
+
+/***** Title bar*****/
+    .navbar.navbar-expand-lg.fixed-top {
+        position: static;
+        background-color: #000;
+    }
+    button.navbar-toggler {
+        color: #fff;
+    }
+
+    .navbar-nav {
+        background-color: #333;
+        margin-top: 30px;
+    }
+    .nav-item {
+        border-bottom: 1px solid;
+    }
+    nav .main-menu .navbar-nav .nav-item .nav-link {
+        padding: 15px 15px;
+    }
+
+/***** heading Area*****/
+    .heading-area,
+    .heading-area-slids,
+    .single-slider {
+        height: 440px;
+    }
+    .heading-content h2 {
+        font-size: 30px;
+    }
+
+    .heading-content h3 {
+        font-size: 15px;
+        margin: 15px 0;
+    }
+
+    .heading-area::after {
+        width: 80%;
+    }
+    .heading-content {
+        max-width: 70%;
+    }
+
+/***** Portfolio *****/
+    .work-list ul li {
+        margin-bottom: 5px;
+    }
+    .portfolio-hover h4 {
+        font-size: 18px;
+    }
+
+/***** about area *****/
+    .about-content {
+        margin-top: 30px;
+    }
+    .about-content h2 {
+        font-size: 24px;
+    }
+    .about-content h4 {
+        font-size: 16px;
+    }
+
+/***** service Section *****/
+    .service-area::before {
+        height: 100%;
+    }
+
+    .single-service h2 {
+        font-size: 24px;
+    }
+
+    .service-icon {
+        font-size: 45px;
+    }
+
+/***** Call to action Section *****/
+    .cta-button {
+        text-align: left;
+        margin-top: 15px;
+    }
+
+/***** Why Choose Me Section *****/
+    .single-why-me h4 {
+        font-size: 20px;
+    }
+    .why-me-right .why-me-icon,
+    .why-me-left .why-me-icon {
+        position: relative;
+        height: 100px;
+    }
+    .single-why-me.why-me-right,
+    .single-why-me {
+        padding: 0;
+        text-align: center;
+    }
+
+/***** Contact Area*****/
+    .contact-form {
+        padding: 15px;
+    }
+}
+
+/********************* Wide Mobile Layout: 480px. *********************/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/***** Title bar *****/
+    .navbar.navbar-expand-lg.fixed-top {
+        position: static;
+        background-color: #000;
+    }
+    button.navbar-toggler {
+        color: #fff;
+    }
+
+    .navbar-nav {
+        background-color: #333;
+        margin-top: 30px;
+    }
+    .nav-item {
+        border-bottom: 1px solid;
+    }
+    nav .main-menu .navbar-nav .nav-item .nav-link {
+        padding: 15px 15px;
+    }
+ 
+/***** Heading area*****/
+    .heading-content h2 {
+        font-size: 50px;
+    }
+
+    .heading-content h3 {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    .heading-area::after {
+        width: 70%;
+    }
+    .heading-content {
+        max-width: 65%;
+    }
+
+/***** Portfolio Area*****/
+    .work-list ul li {
+        margin-bottom: 5px;
+    }
+
+/***** AboutArea*****/
+    .about-content {
+        margin-top: 30px;
+    }
+
+/***** Service Section*****/
+    .service-area::before {
+        height: 100%;
+    }
+
+/***** Call to action*****/
+    .cta-button {
+        text-align: left;
+        margin-top: 15px;
+    }
+
+/***** Contact Us*****/
+    .contact-form {
+        padding: 30px;
+    }
+}
